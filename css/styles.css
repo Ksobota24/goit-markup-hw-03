@@ -1,0 +1,225 @@
+:root {
+  --brand-color: #2196f3;
+  --main-text-color: #212121;
+  --pure-white-color: #ffffff;
+  --pure-black-color: #000000;
+  --light-gray-color: #757575;
+  --button-grey-color: #f5f4fa;
+  --tymczasowe-tlo-color: #857070;
+}
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: var(--main-text-color);
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+nav > a,
+footer > a {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  background-color: var(--tymczasowe-tlo-color);
+}
+.logo1 {
+  color: var(--brand-color);
+}
+.logo2 {
+  color: var(--pure-black-color);
+}
+.logo3 {
+  color: var(--pure-white-color);
+}
+
+ul {
+  list-style-type: none;
+}
+nav > ul > li > a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+  color: var(--brand-color);
+}
+.contacts {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--light-gray-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--brand-color);
+}
+
+h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pure-white-color);
+  /* tymczasowe tlo h1 */
+  background-color: var(--tymczasowe-tlo-color);
+}
+#order {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  background: var(--brand-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+#order-service {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  display: flex;
+  letter-spacing: 0.06em;
+
+  color: var(--pure-white-color);
+}
+.advantages > ul > li > h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--main-text-color);
+}
+.advantages > ul > li > p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: var(--light-gray-color);
+}
+.what-we-do > h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+.team > h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+.name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+.employment {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--light-gray-color);
+}
+#city {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--pure-white-color);
+  /* tymczasowe tlo miasta */
+  background-color: var(--tymczasowe-tlo-color);
+}
+.portfolio-filter-buttons:hover,
+.portfolio-filter-buttons:focus {
+  background-color: var(--brand-color);
+  color: var(--pure-white-color);
+}
+.portfolio-filter-buttons {
+  width: 93px;
+  height: 38px;
+  left: 639px;
+  top: 174px;
+
+  background: var(--button-grey-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+.service-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: var(--main-text-color);
+}
+.service-type {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--light-gray-color);
+}
