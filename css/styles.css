@@ -30,12 +30,14 @@ body {
   color: var(--pure-white-color);
 }
 .navigation-links {
+  list-style-type: none;
+}
+.navigation-links a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  list-style-type: none;
 }
 
 .navigation-links a:hover,
@@ -95,19 +97,15 @@ body {
 .headline button {
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
 
   background: var(--brand-color);
   border-radius: 4px;
   cursor: pointer;
-}
-.headline span {
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
 
-  display: flex;
   letter-spacing: 0.06em;
 
   color: var(--pure-white-color);
@@ -181,8 +179,6 @@ body {
 .portfolio-filters button {
   width: 93px;
   height: 38px;
-  left: 639px;
-  top: 174px;
 
   background: var(--button-grey-color);
   border-radius: 4px;
