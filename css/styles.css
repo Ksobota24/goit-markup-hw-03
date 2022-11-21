@@ -11,20 +11,15 @@ body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--main-text-color);
 }
-a {
-  text-decoration: none;
-}
-a:visited {
-  text-decoration: none;
-}
-nav > a,
-footer > a {
+
+#web-studio-logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   background-color: var(--tymczasowe-tlo-color);
+  text-decoration: none;
 }
 .logo1 {
   color: var(--brand-color);
@@ -35,44 +30,69 @@ footer > a {
 .logo3 {
   color: var(--pure-white-color);
 }
-
-ul {
-  list-style-type: none;
-}
-nav > ul > li > a {
+.navigation-links {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  list-style-type: none;
 }
-nav > ul > li > a:hover,
-nav > ul > li > a:focus {
+#agencja-link:hover,
+#portfolio-link:hover,
+#kontakt-link:hover,
+#agencja-link:focus,
+#portfolio-link:focus,
+#kontakt-link:focus {
   color: var(--brand-color);
 }
-.contacts {
+#agencja-link,
+#portfolio-link,
+#kontakt-link {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.contact-links {
+  list-style-type: none;
+}
+.contact {
   font-weight: 500;
+  font-style: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--light-gray-color);
 }
-.contacts:hover,
-.contacts:focus {
+.no-underline {
+  text-decoration: none;
+}
+.contact:hover,
+.contact:focus {
   color: var(--brand-color);
 }
+#city {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 
-h1 {
+  letter-spacing: 0.03em;
+
+  color: var(--pure-white-color);
+  /* tymczasowe tlo miasta */
+  background-color: var(--tymczasowe-tlo-color);
+}
+.headline h1 {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--pure-white-color);
   /* tymczasowe tlo h1 */
   background-color: var(--tymczasowe-tlo-color);
 }
-#order {
+#order-service-button {
   width: 200px;
   height: 50px;
   left: 700px;
@@ -82,45 +102,51 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
 }
-#order-service {
+#order-service-button-text {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
 
   display: flex;
   letter-spacing: 0.06em;
 
   color: var(--pure-white-color);
 }
-.advantages > ul > li > h2 {
+#advantages-list {
+  list-style-type: none;
+}
+.advantages h2 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--main-text-color);
 }
-.advantages > ul > li > p {
+.advantages p {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: var(--light-gray-color);
 }
-.what-we-do > h2 {
+.what-we-do h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 
   color: var(--main-text-color);
 }
-.team > h2 {
+.team {
+  list-style-type: none;
+}
+.team h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 
   color: var(--main-text-color);
@@ -128,7 +154,7 @@ h1 {
 .name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
 
   letter-spacing: 0.03em;
 
@@ -137,30 +163,22 @@ h1 {
 .employment {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
 
   letter-spacing: 0.03em;
 
   color: var(--light-gray-color);
 }
-#city {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
 
-  letter-spacing: 0.03em;
-
-  color: var(--pure-white-color);
-  /* tymczasowe tlo miasta */
-  background-color: var(--tymczasowe-tlo-color);
+.portfolio-filter-button-list {
+  list-style-type: none;
 }
-.portfolio-filter-buttons:hover,
-.portfolio-filter-buttons:focus {
+.portfolio-filter-button:hover,
+.portfolio-filter-button:focus {
   background-color: var(--brand-color);
   color: var(--pure-white-color);
 }
-.portfolio-filter-buttons {
+.portfolio-filter-button {
   width: 93px;
   height: 38px;
   left: 639px;
@@ -172,16 +190,19 @@ h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
 
   letter-spacing: 0.03em;
 
   color: var(--main-text-color);
 }
+#service-list {
+  list-style-type: none;
+}
 .service-name {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 
   letter-spacing: 0.06em;
 
@@ -190,7 +211,7 @@ h1 {
 .service-type {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
 
   letter-spacing: 0.03em;
 
