@@ -9,7 +9,7 @@
   --tymczasowe-tlo-color: #857070;
 }
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
 }
 
@@ -71,7 +71,7 @@ body {
   color: var(--brand-color);
 }
 .city {
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
