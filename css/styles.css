@@ -20,7 +20,6 @@ a:visited {
 nav > a,
 footer > a {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -41,8 +40,6 @@ ul {
   list-style-type: none;
 }
 nav > ul > li > a {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -54,8 +51,6 @@ nav > ul > li > a:focus {
   color: var(--brand-color);
 }
 .contacts {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -68,8 +63,6 @@ nav > ul > li > a:focus {
 }
 
 h1 {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -90,8 +83,6 @@ h1 {
   cursor: pointer;
 }
 #order-service {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -102,8 +93,6 @@ h1 {
   color: var(--pure-white-color);
 }
 .advantages > ul > li > h2 {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -113,8 +102,6 @@ h1 {
   color: var(--main-text-color);
 }
 .advantages > ul > li > p {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -123,8 +110,6 @@ h1 {
   color: var(--light-gray-color);
 }
 .what-we-do > h2 {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -133,8 +118,6 @@ h1 {
   color: var(--main-text-color);
 }
 .team > h2 {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -143,8 +126,6 @@ h1 {
   color: var(--main-text-color);
 }
 .name {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -154,8 +135,6 @@ h1 {
   color: var(--main-text-color);
 }
 .employment {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -165,8 +144,7 @@ h1 {
   color: var(--light-gray-color);
 }
 #city {
-  font-family: 'Roboto';
-  font-style: normal;
+  font-style: italic;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -191,7 +169,6 @@ h1 {
   background: var(--button-grey-color);
   border-radius: 4px;
   cursor: pointer;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -202,8 +179,6 @@ h1 {
   color: var(--main-text-color);
 }
 .service-name {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -213,8 +188,6 @@ h1 {
   color: var(--main-text-color);
 }
 .service-type {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
