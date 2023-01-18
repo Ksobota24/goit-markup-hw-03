@@ -19,6 +19,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  background-color: var(--tymczasowe-tlo-color);
   text-decoration: none;
   color: var(--brand-color);
 }
@@ -52,17 +53,8 @@ body {
 }
 .darker-white {
   color: var(--darker-white-color);
+  background-color: var(--tymczasowe-tlo-color);
 }
-.contact-links-flex {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  flex-flow: row nowrap;
-  /* justify-content: flex-end; */
-  list-style: none;
-  padding-right: 27px;
-}
-
 .contact-links {
   list-style-type: none;
 }
@@ -89,6 +81,8 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--pure-white-color);
+  /* tymczasowe tlo miasta */
+  background-color: var(--tymczasowe-tlo-color);
 }
 .headline h1 {
   font-weight: 900;
@@ -97,17 +91,23 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--pure-white-color);
+  /* tymczasowe tlo h1 */
+  background-color: var(--tymczasowe-tlo-color);
 }
 .headline button {
   width: 200px;
   height: 50px;
+
   background: var(--brand-color);
   border-radius: 4px;
   cursor: pointer;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+
   letter-spacing: 0.06em;
+
   color: var(--pure-white-color);
 }
 .advantages-list {
@@ -149,6 +149,24 @@ body {
 
   color: var(--main-text-color);
 }
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+.employment {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
+
+  color: var(--light-gray-color);
+}
 
 .portfolio-filters {
   list-style-type: none;
@@ -177,8 +195,21 @@ body {
 .services {
   list-style-type: none;
 }
+.service-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 
+  letter-spacing: 0.06em;
 
+  color: var(--main-text-color);
+}
+.service-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
 
   color: var(--light-gray-color);
 }
