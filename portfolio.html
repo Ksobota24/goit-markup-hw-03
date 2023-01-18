@@ -11,131 +11,162 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a class="web-studio-logo" href="index.html">Web<span class="studio-black">Studio</span></a>
-            <ul class="navigation-links">
-                <li><a href="#">Agencja</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="#">Kontakt</a></li>
-            </ul>
-        </nav>
-        <div>
-            <ul class="contact-links">
-                <li><a class="contact no-underline light-gray" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li><a class="contact no-underline light-gray" href="tel:+49111111111">+48 111 111 111</a></li>
-            </ul>
+    <!--Logo, navigation-->
+    <header class="nav-general">
+        <div class="container">
+            <div class="nav-flex">
+                <nav class="logo-nav">
+                    <a class="web-studio-logo" href="index.html">Web<span class="studio-black">Studio</span></a>
+                    <ul class="navigation ul">
+                        <li><a class="nav-agen" href="#">Agencja</a></li>
+                        <li><a class="nav-port" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="nav-kont" href="#">Kontakt</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <ul class="contact-links-flex">
+                        <li><a class="contact no-underline light-gray"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li><a class="contact no-underline light-gray" href="tel:+49111111111">+48 111 111 111</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
+
+
+
     <main>
-        <ul class="portfolio-filters">
-            <li><button type="button">Wszystkie</button></li>
-            <li><button type="button">Strony</button></li>
-            <li><button type="button">Aplikacje</button></li>
-            <li><button type="button">Dizajn</button></li>
-            <li><button type="button">Marketing</button></li>
-        </ul>
-
-
-        <ul class="services">
-            <li>
-                <figure>
-                    <img src="./images/technocrack.jpg" alt="Komputer z stroną internetową" width="370" height="294">
-                    <figcaption>
-                        <span class="service-name">Technocrack</span>
-                        <p class="service-type">Strona Internetowa</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="./images/basketball.jpg" alt="Gra w koszykówkę" width="370" height="294">
-                    <figcaption>
-                        <span class="service-name">Grafika New Orlean vs Golden Star</span>
-                        <p class="service-type">Dizajn</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="./images/restauration.jpg" alt="Logo restauracji The Seafood" width="370" height="294">
-                    <figcaption>
-                        <span class="service-name">Restauracja Seafood</span>
-                        <p class="service-type">Aplikacja</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="./images/headphones.jpg" alt="Czarne słuchawki nauszne" width="370" height="294">
-                    <figcaption>
-                        <span class="service-name">Projekt Prime</span>
-                        <p class="service-type">Marketing</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="./images/boxes.jpg" alt="Dwa eżące kartonowe pudełka" width="370" height="294">
-                    <figcaption>
-                        <span class="service-name">Projekt Boxes</span>
-                        <p class="service-type">Aplikacja</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="./images/pc-monitor.jpg" alt="Monitor komputera" width="370" height="294">
-                    <figcaption>
-                        <span class="service-name">Inspiration has no Borders</span>
-                        <p class="service-type">Aplikacja</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="./images/book.jpg" alt="Otwarta książka" width="370" height="294">
-                    <figcaption>
-                        <span class="service-name">Magazyn Limited Edition</span>
-                        <p class="service-type">Dizajn</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="./images/nametag.jpg" alt="Zawieszka z nazwą projektu LAB" width="370" height="294">
-                    <figcaption>
-                        <span class="service-name">Projekt LAB</span>
-                        <p class="service-type">Marketing</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="./images/laptop.jpg" alt="Osoboa pracująca na laptopie" width="370" height="294">
-                    <figcaption>
-                        <span class="service-name">Growing Business</span>
-                        <p class="service-type">Aplikacja</p>
-                    </figcaption>
-                </figure>
-            </li>
-        </ul>
+        <!-- Services filter-->
+        <section class="section">
+            <div class="container">
+                <div class="container menu-portfolio">
+                    <ul class="ul-portfolio">
+                        <li>
+                            <button class="button all" type="button">
+                                <span class="ul-portfolio-button">Wszystkie</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="button pages" type="button">
+                                <span class="ul-portfolio-button">Strony</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="button apps" type="button">
+                                <span class="ul-portfolio-button">Aplikacje</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="button design" type="button">
+                                <span class="ul-portfolio-button">Dizajn</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="button marketing" type="button">
+                                <span class="ul-portfolio-button">Marketing</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="main-portfolio">
+                    <li class="li-flex">
+                        <img class="img-portfolio" src="images/technocrack.jpg" alt="reklama na laptopie" width="370"
+                            height="294" />
+                        <div class="li-description">
+                            <h2 class="caption">Technocrack</h2>
+                            <p class="button-type">Strona internetowa</p>
+                        </div>
+                    </li>
+                    <li class="li-flex">
+                        <img class="img-portfolio" src="images/basketball.jpg" alt="gra w koszykówkę " width="370"
+                            height="294" />
+                        <div class="li-description">
+                            <h2 class="caption">Grafika New Orlean vs Golden Star</h2>
+                            <p class="button-type">Dizajn</p>
+                        </div>
+                    </li>
+                    <li class="li-flex">
+                        <img class="img-portfolio" src="images/restauration.jpg" alt="restauracja seafood" width="370"
+                            height="294" />
+                        <div class="li-description">
+                            <h2 class="caption">Restauracja Seafood</h2>
+                            <p class="button-type">Aplikacja</p>
+                        </div>
+                    </li>
+                    <li class="li-flex">
+                        <img class="img-portfolio" src="images/headphones.jpg" alt="słuchawki nauszne" width="370"
+                            height="294" />
+                        <div class="li-description">
+                            <h2 class="caption">Projekt Prime</h2>
+                            <p class="button-type">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="li-flex">
+                        <img class="img-portfolio" src="images/boxes.jpg" alt="dwa pudełka" width="370" height="294" />
+                        <div class="li-description">
+                            <h2 class="caption">Projekt Boxes</h2>
+                            <p class="button-type">Aplikacja</p>
+                        </div>
+                    </li>
+                    <li class="li-flex">
+                        <img class="img-portfolio" src="images/pc-monitor.jpg" alt="program na monitorze" width="370"
+                            height="294" />
+                        <div class="li-description">
+                            <h2 class="caption">Inspiration has no Borders</h2>
+                            <p class="button-type">Strona internetowa</p>
+                        </div>
+                    </li>
+                    <li class="li-flex">
+                        <img class="img-portfolio" src="images/book.jpg" alt="gazeta w języku angielskim" width="370"
+                            height="294" />
+                        <div class="li-description">
+                            <h2 class="caption">Magazyn Limited Edition</h2>
+                            <p class="button-type">Dizajn</p>
+                        </div>
+                    </li>
+                    <li class="li-flex">
+                        <img class="img-portfolio" src="images/nametag.jpg" alt="etykieta z napisem label tag"
+                            width="370" height="294" />
+                        <div class="li-description">
+                            <h2 class="caption">Projekt LAB</h2>
+                            <p class="button-type">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="li-flex">
+                        <img class="img-portfolio" src="images/laptop.jpg" alt="programowanie na laptopie" width="370"
+                            height="294" />
+                        <div class="li-description">
+                            <h2 class="caption">Growing Business</h2>
+                            <p class="button-type">Aplikacja</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <footer>
-        <a class="web-studio-logo" href="index.html"><span class="logo1">Web</span><span
-                class="studio-white">Studio</span></a>
-        <address>
-            <ul class="contact-links">
-                <li class="city"><span>m. Warszawa, Aleje Jerozolimskie 21</span></li>
-                <li><a class="contact darker-white" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contact no-underline darker-white" href="tel:+49111111111">+48 111 111 111</a>
-                </li>
-            </ul>
-        </address>
+
+
+    <!--Stopka-->
+    <footer class="footer">
+        <div class="container logo-footer-flex">
+            <a class="web-studio-logo-footer" href="index.html">Web<span class="studio-white">Studio</span></a>
+            <address>
+                <ul class="contact-links">
+                    <li><span class="city">m. Warszawa, Aleje Jerozolimskie 21</span></li>
+                    <li><a class="contact darker-white" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li><a class="contact no-underline darker-white" href="tel:+49111111111">+48 111 111 111</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 

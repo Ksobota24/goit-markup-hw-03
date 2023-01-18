@@ -11,121 +11,159 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <title>Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a class="web-studio-logo" href="index.html">Web<span class="studio-black">Studio</span></a>
-            <ul class="navigation-links">
-                <li><a href="#">Agencja</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="#">Kontakt</a></li>
-            </ul>
-        </nav>
-        <div>
-            <ul class="contact-links">
-                <li><a class="contact no-underline light-gray" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li><a class="contact no-underline light-gray" href="tel:+49111111111">+48 111 111 111</a></li>
-            </ul>
+    <header class="nav-general">
+        <div class="container">
+            <div class="nav-flex">
+                <nav class="logo-nav">
+                    <a class="web-studio-logo" href="index.html">Web<span class="studio-black">Studio</span></a>
+                    <ul class="navigation ul">
+                        <li><a class="nav-agen" href="#">Agencja</a></li>
+                        <li><a class="nav-port" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="nav-kont" href="#">Kontakt</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <ul class="contact-links-flex">
+                        <li><a class="contact no-underline light-gray"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li><a class="contact no-underline light-gray" href="tel:+49111111111">+48 111 111 111</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
     <main>
-        <section class="headline">
-            <h1>efektywne rozwiązania dla waszego biznesu</h1>
-            <button type="button">Zamów usługę</button>
-        </section>
-        <section class="advantages">
-            <ul class="advantages-list">
-                <li>
-                    <h2>lorem ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
-                        Interdum et malesuada</p>
-                </li>
-                <li>
-                    <h2>lorem ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
-                        Interdum
-                        et malesuada</p>
-                </li>
-                <li>
-                    <h2>lorem ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
-                        Interdum
-                        et malesuada</p>
-                </li>
-                <li>
-                    <h2>lorem ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
-                        Interdum
-                        et malesuada</p>
-                </li>
 
-            </ul>
-        </section>
-        <section class="what-we-do">
-            <h2>Czym się zajmujemy?</h2>
-            <div>
-                <img src="images/code-typing.jpg" alt="pisanie kodu na tablecie" width="370" height="294">
-                <img src="images/mobile-app.jpg" alt="projektowanie aplikacji na telefon" width="370" height="294">
-                <img src="images/color-palette.jpg" alt="paleta kolorów na tablecie" width="370" height="294">
+
+
+        <!-- Order Button Main-->
+        <section class="section header">
+            <div class="container">
+                <div class="order">
+                    <section class="headline">
+                        <h1>efektywne rozwiązania dla waszego biznesu</h1>
+                        <div class="button-flex">
+                            <button class="order-button" type="button"><span class="order-button-text">Zamów
+                                    usługę</span></button>
+                        </div>
+                    </section>
+                </div>
             </div>
         </section>
-        <section class="our-team">
-            <h2>Nasz zespół</h2>
-            <ul class="team">
-                <li>
-                    <figure>
-                        <img src="images/product-design.jpg" alt="mężczyzna w bordowej koszuli z okularami" width="270"
-                            height="260">
-                        <figcaption>
-                            <span class="name">John Doe</span>
-                            <p class="employment">Product Designer</p>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/front-dev.jpg" alt="kobieta w marynarce i okularach" width="270" height="260">
-                        <figcaption>
-                            <span class="name">John Doe</span>
-                            <p class="employment">Frontend Developer</p>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/marketing.jpg" alt="mężczyzna w niebieskiej koszuli" width="270" height="260">
-                        <figcaption>
-                            <span class="name">John Doe</span>
-                            <p class="employment">Marekting</p>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/ui-design.jpg" alt="mężczyzna w czarnym t-shircie w okularach" width="270"
-                            height="260">
-                        <figcaption>
-                            <span class="name">John Doe</span>
-                            <p class="employment">UI Designer</p>
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
+
+
+
+
+        <!-- Lorem -->
+        <section class="section main">
+            <div class="container flex-main">
+                <ul class="ul">
+                    <li>
+                        <h2>lorem ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                            dui.
+                            Interdum et malesuada</p>
+                    </li>
+                    <li>
+                        <h2>lorem ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                            dui.
+                            Interdum
+                            et malesuada</p>
+                    </li>
+                    <li>
+                        <h2>lorem ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                            dui.
+                            Interdum
+                            et malesuada</p>
+                    </li>
+                    <li>
+                        <h2>lorem ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                            dui.
+                            Interdum
+                            et malesuada</p>
+                    </li>
+                </ul>
+            </div>
         </section>
+
+
+
+
+
+        <!--czym sie zajmujemy-->
+        <section class="section">
+            <div class="container main-content">
+                <h2 class="team-header">Czym się zajmujemy?</h2>
+                <ul class="main-content-flex">
+                    <li><img class="workplace" src="images/code-typing.jpg" alt="pisanie kodu na tablecie" width="370"
+                            height="294"></li>
+                    <li><img class="phone" src="images/mobile-app.jpg" alt="projektowanie aplikacji na telefon"
+                            width="370" height="294">
+                    </li>
+                    <li><img class="tablet" src="images/color-palette.jpg" alt="paleta kolorów na tablecie" width="370"
+                            height="294"></li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!--Zespół-->
+        <section class="section team-content">
+            <div class="container">
+                <h2 class="team-header">Nasz zespół</h2>
+                <ul class="ul team-photos">
+                    <li class="team-card">
+                        <img src="images/product-design.jpg" alt="uśmiechnięty męźczyzna" width="270" height="260" />
+                        <h4 class="header-john-doe">John Doe</h4>
+                        <p class="job-position">Product Designer</p>
+                    </li>
+                    <li class="team-card">
+                        <img src="images/front-dev.jpg" alt="uśmiechnięta kobieta" width="270" height="260" />
+                        <h4 class="header-john-doe">John Doe</h4>
+                        <p class="job-position">Fronted Developer</p>
+                    </li>
+                    <li class="team-card">
+                        <img src="images/marketing.jpg" alt="uśmiechnięty męźczyzna" width="270" height="260" />
+                        <h4 class="header-john-doe">John Doe</h4>
+                        <p class="job-position">Marketing</p>
+                    </li>
+                    <li class="team-card">
+                        <img src="images/ui-design.jpg" alt="uśmiechnięty męźczyzna" width="270" height="260" />
+                        <h4 class="header-john-doe">John Doe</h4>
+                        <p class="job-position">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
     </main>
-    <footer>
-        <a class="web-studio-logo" href="index.html">Web<span class="studio-white">Studio</span></a>
-        <address>
-            <ul class="contact-links">
-                <li><span class="city">m. Warszawa, Aleje Jerozolimskie 21</span></li>
-                <li><a class="contact no-underline darker-white" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li><a class="contact no-underline darker-white" href="tel:+49111111111">+48 111 111 111</a></li>
-            </ul>
-        </address>
+
+
+
+    <!--Stopka-->
+    <footer class="footer">
+        <div class="container logo-footer-flex">
+            <a class="web-studio-logo-footer" href="index.html">Web<span class="studio-white">Studio</span></a>
+            <address>
+                <ul class="contact-links">
+                    <li><span class="city">m. Warszawa, Aleje Jerozolimskie 21</span></li>
+                    <li><a class="contact no-underline darker-white"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li><a class="contact no-underline darker-white" href="tel:+49111111111">+48 111 111 111</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 
